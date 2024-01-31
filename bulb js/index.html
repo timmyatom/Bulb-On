@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>BULB ON</title>
+</head>
+<body>
+    <header>PRACTICE ON JS ONCLICK</header>
+<section><p>JavaScript can change HTML attribute values.</p>
+    <p>In this case JavaScript changes the value of the src (source)
+    attribute of an image to make a simple on and off bulb</p>
+    <img id="myImage" src="assets/image/bulb-off.png" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='assets/image/bulb-on.png'">Turn on the light</button>
+    <button onclick="document.getElementById('myImage').src='assets/image/bulb-off.png'">Turn off the light</button>
+</section>
+<p id="demo">fff</p>
+<script>
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+</body>
+</html>

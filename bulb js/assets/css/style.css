@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    height: 100px;
+        width: 100%;
+        background: aqua;
+        color: #3f3f3f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background: #16123a;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
